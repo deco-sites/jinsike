@@ -87,7 +87,7 @@ export default function Footer({
       "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
   },
   madeWith = {
-    label: "Made with",
+    label: "Made with:",
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
@@ -113,7 +113,7 @@ export default function Footer({
           <div>
             <Image
               src={logo.src || ""}
-              width={100}
+              width={200}
               height={28}
               alt={logo.alt}
             />
